@@ -60,7 +60,7 @@ const Header = () => {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <div className="md:hidden absolute top-full left-0 right-0 bg-white/10 backdrop-blur-lg border-b border-white/20 shadow-lg">
+          <div className="md:hidden absolute top-full left-0 right-0 bg-gray-900/95 backdrop-blur-md border-t border-gray-800">
             <nav className="flex flex-col space-y-4 p-4">
               {['Home', 'About', 'Projects', 'Contact'].map((item) => (
                 <button
