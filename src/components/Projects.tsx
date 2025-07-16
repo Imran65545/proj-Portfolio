@@ -13,21 +13,21 @@ const Projects = () => {
       featured: true
     },
     {
-      title: 'WeChat - Real-Time Chat App',
-      description: 'A real-time chat application using WebSockets, supporting instant messaging and multi-user rooms with smooth frontend and backend communication.',
-      image: '/WeChat.png',
-      tech: ['React', 'Node.js', 'Socket.io', 'Express'],
-      liveUrl: 'https://imran65545.github.io/WeChat/',
-      githubUrl: 'https://github.com/Imran65545/WeChat',
+      title: 'Promptopia',
+      description: 'An AI prompt platform for discovering, creating, and sharing creative AI-powered prompts. Features user authentication, search, and a modern, responsive UI.',
+      image: '/promptopia.png', // User will update this
+      tech: ['Next.js', 'React', 'MongoDB', 'Tailwind CSS'],
+      liveUrl: 'https://promptopia-gamma-ten.vercel.app/', // User will update this
+      githubUrl: 'https://github.com/Imran65545/Promptopia', // User will update this
       featured: true
     },
     {
-      title: 'Solar System 3D Simulation',
-      description: 'Interactive 3D visualization of the solar system with realistic physics, orbit controls, and adjustable simulation speed.',
-      image: 'https://images.pexels.com/photos/2150/sky-space-dark-galaxy.jpg?auto=compress&cs=tinysrgb&w=800',
-      tech: ['Three.js', 'JavaScript', 'WebGL', 'CSS3'],
-      liveUrl: 'https://imran65545.github.io/proj-solar/',
-      githubUrl: 'https://github.com/Imran65545/proj-solar',
+      title: 'AI-Workspace',
+      description: 'A productivity dashboard that organizes your life with smart notes, actionable tasks, and AI summaries—all in one clean, modern interface.',
+      image: '/workspace.png', // User will update this
+      tech: ['React', 'TypeScript', 'Tailwind CSS', 'OpenAI API'],
+      liveUrl: 'https://proj-workspace.vercel.app/', // User will update this
+      githubUrl: 'https://github.com/Imran65545/My-Workspace', // User will update this
       featured: true
     },
     {

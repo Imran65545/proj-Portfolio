@@ -25,7 +25,7 @@ const Hero = () => {
       {/* 3D Spline Visual as background */}
       <div className="absolute inset-0 w-full h-full z-0">
         {inView && (
-          <Spline scene="https://prod.spline.design/zpSWjdJHq4BMx4Wt/scene.splinecode" />
+          <Spline scene="https://prod.spline.design/EvFTY6Ozr84hTdhB/scene.splinecode" />
         )}
         {/* Overlay to cover Spline watermark */}
         <div className="absolute bottom-5 right-5 bg-black rounded-xl w-[140px] h-[44px] md:w-[140px] md:h-[44px] w-[110px] h-[36px] md:bottom-4 md:right-4 bottom-2 right-2 pointer-events-none z-10"></div>
