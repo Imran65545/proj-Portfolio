@@ -1,5 +1,5 @@
 import { ChevronDown, Github, Linkedin, Mail } from 'lucide-react';
-import Spline from '@splinetool/react-spline';
+import DarkVeil from './DarkVeil';
 import { useInView } from 'react-intersection-observer';
 
 const Hero = () => {
@@ -22,13 +22,9 @@ const Hero = () => {
       className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gray-900"
       style={{ minHeight: '100vh' }}
     >
-      {/* 3D Spline Visual as background */}
+      {/* Animated DarkVeil Visual as background */}
       <div className="absolute inset-0 w-full h-full z-0">
-        {inView && (
-          <Spline scene="https://prod.spline.design/EvFTY6Ozr84hTdhB/scene.splinecode" />
-        )}
-        {/* Overlay to cover Spline watermark */}
-        <div className="absolute bottom-5 right-5 bg-black rounded-xl w-[140px] h-[44px] md:w-[140px] md:h-[44px] w-[110px] h-[36px] md:bottom-4 md:right-4 bottom-2 right-2 pointer-events-none z-10"></div>
+        <DarkVeil />
       </div>
 
       {/* Overlay Hero Content */}
